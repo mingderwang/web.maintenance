@@ -1,0 +1,35 @@
+version: '3.2'
+
+services:
+
+  traefik2:
+    image: traefik:1.7.0
+    command: --api --docker
+    restart: always
+    ports:
+      - 9081:8080
+      - 9080:80
+      - 9443:443
+    networks:
+      - web
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik.toml:/etc/traefik/traefik.toml
+    container_name: traefik2
+
+  background2:
+    restart: always
+    build: background
+    networks:
+      - web
+    command: "python -m SimpleHTTPServer 9001"
+    labels:
+      - "traefik.frontend.rule=Host: progolflink.nl"
+      - "traefik.port=9001"
+      - "traefik.backend=background2"
+      - "traefik.frontend.entryPoints=https,http"
+      - "traefik.frontend.rule=PathPrefix:/"
+
+networks:
+  web:
+    external: true

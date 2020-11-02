@@ -1,0 +1,22 @@
+version: '3.2'
+
+services:
+
+  progolflink:
+    build: background
+    command: "python -m SimpleHTTPServer 9001"
+    restart: always
+    networks:
+      - web
+    labels:
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:progolflink.nl"
+      - "traefik.frontend.entryPoints=http,https"
+      - "traefik.frontend.rule=PathPrefix:/"
+      - "traefik.port=9001"
+      - "traefik.backend=progolflink"
+
+networks:
+  web:
+    external: true

@@ -1,0 +1,20 @@
+version: '3.2'
+
+services:
+
+  whoami:
+    image: emilevauge/whoami # A container that exposes an API to show its IP address
+    networks:
+      - web
+    labels:
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
+      - "traefik.domain=ethcards.co"
+      - "traefik.frontend.rule=Host:ethcards.co"
+      - "traefik.frontend.entryPoints=http,https"
+      - "traefik.port=80"
+      - "traefik.backend=whoami"
+
+networks:
+  web:
+    external: true

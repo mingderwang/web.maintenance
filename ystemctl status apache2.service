@@ -1,0 +1,2462 @@
+-- Logs begin at Wed 2018-10-24 19:44:04 PDT, end at Wed 2018-10-24 19:52:04 PDT. --
+Oct 24 19:44:06 ssdnodes-85807 systemd[1]: Mounted FUSE Control File System.
+-- Subject: Unit sys-fs-fuse-connections.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:07 ssdnodes-85807 kernel: EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Started Remount Root and Kernel File Systems.
+-- Subject: Unit systemd-remount-fs.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-remount-fs.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Starting Load/Save Random Seed...
+-- Subject: Unit systemd-random-seed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Starting Flush Journal to Persistent Storage...
+-- Subject: Unit systemd-journal-flush.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Starting udev Coldplug all Devices...
+-- Subject: Unit systemd-udev-trigger.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-trigger.service has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:07 ssdnodes-85807 kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for lxd, revision 9243...
+-- Subject: Unit snap-lxd-9243.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9243.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for lxd, revision 9292...
+-- Subject: Unit snap-lxd-9292.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9292.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for juju, revision 5139...
+-- Subject: Unit snap-juju-5139.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-juju-5139.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for juju, revision 5426...
+-- Subject: Unit snap-juju-5426.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-juju-5426.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for core, revision 5548...
+-- Subject: Unit snap-core-5548.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-core-5548.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for lxd, revision 9250...
+-- Subject: Unit snap-lxd-9250.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9250.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for conjure-up, revision 1031...
+-- Subject: Unit snap-conjure\x2dup-1031.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-conjure\x2dup-1031.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for conjure-up, revision 1030...
+-- Subject: Unit snap-conjure\x2dup-1030.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-conjure\x2dup-1030.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for conjure-up, revision 1029...
+-- Subject: Unit snap-conjure\x2dup-1029.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-conjure\x2dup-1029.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for core, revision 5662...
+-- Subject: Unit snap-core-5662.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-core-5662.mount has begun starting up.
+Oct 24 19:44:07 ssdnodes-85807 systemd[1]: Mounting Mount unit for core...
+-- Subject: Unit snap-core-5328.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-core-5328.mount has begun starting up.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for juju, revision 5139.
+-- Subject: Unit snap-juju-5139.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-juju-5139.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for lxd, revision 9243.
+-- Subject: Unit snap-lxd-9243.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9243.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for lxd, revision 9292.
+-- Subject: Unit snap-lxd-9292.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9292.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Started Apply Kernel Variables.
+-- Subject: Unit systemd-sysctl.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysctl.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Started Load/Save Random Seed.
+-- Subject: Unit systemd-random-seed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Started Flush Journal to Persistent Storage.
+-- Subject: Unit systemd-journal-flush.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for lxd, revision 9250.
+-- Subject: Unit snap-lxd-9250.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9250.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for conjure-up, revision 1031.
+-- Subject: Unit snap-conjure\x2dup-1031.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-conjure\x2dup-1031.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Started udev Coldplug all Devices.
+-- Subject: Unit systemd-udev-trigger.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-trigger.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for juju, revision 5426.
+-- Subject: Unit snap-juju-5426.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-juju-5426.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+-- Subject: Unit systemd-ask-password-console.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-ask-password-console.path has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Starting udev Wait for Complete Device Initialization...
+-- Subject: Unit systemd-udev-settle.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-settle.service has begun starting up.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for core.
+-- Subject: Unit snap-core-5328.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-core-5328.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for core, revision 5548.
+-- Subject: Unit snap-core-5548.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-core-5548.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for conjure-up, revision 1030.
+-- Subject: Unit snap-conjure\x2dup-1030.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-conjure\x2dup-1030.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for core, revision 5662.
+-- Subject: Unit snap-core-5662.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-core-5662.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:08 ssdnodes-85807 systemd[1]: Mounted Mount unit for conjure-up, revision 1029.
+-- Subject: Unit snap-conjure\x2dup-1029.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-conjure\x2dup-1029.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:09 ssdnodes-85807 kernel: [0;1;39mvzvirtio_balloon: loading out-of-tree module taints kernel.[0m
+Oct 24 19:44:09 ssdnodes-85807 kernel: [0;1;39mvzvirtio_balloon: module verification failed: signature and/or required key missing - tainting kernel[0m
+Oct 24 19:44:09 ssdnodes-85807 kernel: [0;1;31mintel_rapl: no valid rapl domains found in package 0[0m
+Oct 24 19:44:09 ssdnodes-85807 kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Oct 24 19:44:10 ssdnodes-85807 systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+-- Subject: Unit systemd-rfkill.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:10 ssdnodes-85807 systemd-udevd[763]: [0;1;39mProcess '/bin/bash -c 'echo 1 > /sys/devices/system/cpu/cpu0/online'' failed with exit code 1.[0m
+Oct 24 19:44:11 ssdnodes-85807 systemd[1]: Found device Virtio network device.
+-- Subject: Unit sys-subsystem-net-devices-ens3.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-subsystem-net-devices-ens3.device has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:12 ssdnodes-85807 systemd[1]: Started Uncomplicated firewall.
+-- Subject: Unit ufw.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ufw.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:13 ssdnodes-85807 systemd[1]: Found device Vz_HARDDISK0 1.
+-- Subject: Unit dev-disk-by\x2duuid-7f7e9d93\x2d85f5\x2d4128\x2dbaac\x2d481561778bb1.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-disk-by\x2duuid-7f7e9d93\x2d85f5\x2d4128\x2dbaac\x2d481561778bb1.device has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:13 ssdnodes-85807 systemd[1]: Starting File System Check on /dev/disk/by-uuid/7f7e9d93-85f5-4128-baac-481561778bb1...
+-- Subject: Unit systemd-fsck@dev-disk-by\x2duuid-7f7e9d93\x2d85f5\x2d4128\x2dbaac\x2d481561778bb1.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsck@dev-disk-by\x2duuid-7f7e9d93\x2d85f5\x2d4128\x2dbaac\x2d481561778bb1.service has begun starting up.
+Oct 24 19:44:13 ssdnodes-85807 systemd[1]: Started udev Wait for Complete Device Initialization.
+-- Subject: Unit systemd-udev-settle.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-settle.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:13 ssdnodes-85807 systemd[1]: Starting Import ZFS pools by device scanning...
+-- Subject: Unit zfs-import-scan.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zfs-import-scan.service has begun starting up.
+Oct 24 19:44:13 ssdnodes-85807 kernel: [0;1;39mzavl: module license 'CDDL' taints kernel.[0m
+Oct 24 19:44:13 ssdnodes-85807 kernel: [0;1;39mDisabling lock debugging due to kernel taint[0m
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Started File System Check Daemon to report status.
+-- Subject: Unit systemd-fsckd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsckd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:14 ssdnodes-85807 systemd-fsck[1076]: /dev/sda1: clean, 312/124928 files, 178898/498688 blocks
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Started File System Check on /dev/disk/by-uuid/7f7e9d93-85f5-4128-baac-481561778bb1.
+-- Subject: Unit systemd-fsck@dev-disk-by\x2duuid-7f7e9d93\x2d85f5\x2d4128\x2dbaac\x2d481561778bb1.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsck@dev-disk-by\x2duuid-7f7e9d93\x2d85f5\x2d4128\x2dbaac\x2d481561778bb1.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Mounting /boot...
+-- Subject: Unit boot.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit boot.mount has begun starting up.
+Oct 24 19:44:14 ssdnodes-85807 kernel: EXT4-fs (sda1): mounting ext2 file system using the ext4 subsystem
+Oct 24 19:44:14 ssdnodes-85807 kernel: [0;1;39mSPL: Loaded module v0.6.5.6-0ubuntu4[0m
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Mounted /boot.
+-- Subject: Unit boot.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit boot.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:14 ssdnodes-85807 kernel: EXT4-fs (sda1): mounted filesystem without journal. Opts: (null)
+Oct 24 19:44:14 ssdnodes-85807 kernel: [0;1;39mZFS: Loaded module v0.6.5.6-0ubuntu25, ZFS pool version 5000, ZFS filesystem version 5[0m
+Oct 24 19:44:14 ssdnodes-85807 zpool[1189]: no pools available to import
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Started Import ZFS pools by device scanning.
+-- Subject: Unit zfs-import-scan.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zfs-import-scan.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Starting Mount ZFS filesystems...
+-- Subject: Unit zfs-mount.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zfs-mount.service has begun starting up.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Started Mount ZFS filesystems.
+-- Subject: Unit zfs-mount.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zfs-mount.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Reached target Local File Systems.
+-- Subject: Unit local-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+-- Subject: Unit plymouth-read-write.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has begun starting up.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Starting LSB: AppArmor initialization...
+-- Subject: Unit apparmor.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apparmor.service has begun starting up.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Starting Set console font and keymap...
+-- Subject: Unit console-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has begun starting up.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Unit systemd-tmpfiles-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has begun starting up.
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Starting netfilter persistent configuration...
+-- Subject: Unit netfilter-persistent.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit netfilter-persistent.service has begun starting up.
+Oct 24 19:44:14 ssdnodes-85807 systemd-tmpfiles[1201]: [0;1;39m[/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.[0m
+Oct 24 19:44:14 ssdnodes-85807 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+-- Subject: Unit plymouth-read-write.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:15 ssdnodes-85807 netfilter-persistent[1203]: run-parts: executing /usr/share/netfilter-persistent/plugins.d/15-ip4tables start
+Oct 24 19:44:15 ssdnodes-85807 systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:15 ssdnodes-85807 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: Unit systemd-update-utmp.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has begun starting up.
+Oct 24 19:44:15 ssdnodes-85807 apparmor[1198]:  * Starting AppArmor profiles
+Oct 24 19:44:15 ssdnodes-85807 systemd[1]: Starting Network Time Synchronization...
+-- Subject: Unit systemd-timesyncd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-timesyncd.service has begun starting up.
+Oct 24 19:44:15 ssdnodes-85807 systemd[1]: Started Network Time Synchronization.
+-- Subject: Unit systemd-timesyncd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-timesyncd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:15 ssdnodes-85807 systemd[1]: Reached target System Time Synchronized.
+-- Subject: Unit time-sync.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit time-sync.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:15 ssdnodes-85807 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+-- Subject: Unit systemd-update-utmp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:17 ssdnodes-85807 systemd[1]: Started Set console font and keymap.
+-- Subject: Unit console-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:17 ssdnodes-85807 systemd[1]: Created slice system-getty.slice.
+-- Subject: Unit system-getty.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit system-getty.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:17 ssdnodes-85807 netfilter-persistent[1203]: run-parts: executing /usr/share/netfilter-persistent/plugins.d/25-ip6tables start
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.760:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1324 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 audit[1324]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1324 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.780:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5328/usr/lib/snapd/snap-confine" pid=1327 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.780:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5328/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1327 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 audit[1327]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5328/usr/lib/snapd/snap-confine" pid=1327 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1327]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5328/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1327 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.792:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=1332 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 audit[1332]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=1332 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.796:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=1325 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.796:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=1325 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.796:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=1325 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.796:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=1325 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 audit[1325]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=1325 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1325]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=1325 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1325]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=1325 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1325]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=1325 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 apparmor[1198]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 24 19:44:17 ssdnodes-85807 audit[1334]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=1334 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1334]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1334 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.852:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=1334 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435457.852:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1334 comm="apparmor_parser"[0m
+Oct 24 19:44:17 ssdnodes-85807 audit[1333]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=1333 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1326]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=1326 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1326]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1326 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1326]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=1326 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1326]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=1326 comm="apparmor_parser"
+Oct 24 19:44:17 ssdnodes-85807 audit[1336]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=1336 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started netfilter persistent configuration.
+-- Subject: Unit netfilter-persistent.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit netfilter-persistent.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 audit[1360]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.conjure-up.conjure-down" pid=1360 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1361]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.conjure-up.conjure-up" pid=1361 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1359]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5662/usr/lib/snapd/snap-confine" pid=1359 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1359]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5662/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1359 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1362]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.conjure-up.hook.configure" pid=1362 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1363]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.conjure-up.juju" pid=1363 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1364]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.conjure-up.juju-wait" pid=1364 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1366]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.juju.hook.configure" pid=1366 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1367]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.juju.juju" pid=1367 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.activate (/var/lib/snapd/apparmor/profiles/snap.lxd.activate line 449): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 audit[1365]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.core.hook.configure" pid=1365 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.benchmark (/var/lib/snapd/apparmor/profiles/snap.lxd.benchmark line 449): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 audit[1368]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.activate" pid=1368 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.buginfo (/var/lib/snapd/apparmor/profiles/snap.lxd.buginfo line 449): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 audit[1369]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.benchmark" pid=1369 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.daemon (/var/lib/snapd/apparmor/profiles/snap.lxd.daemon line 497): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 audit[1372]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.daemon" pid=1372 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel (/var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel line 449): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 audit[1370]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.buginfo" pid=1370 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1373]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.configure" pid=1373 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1371]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.check-kernel" pid=1371 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1374]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.install" pid=1374 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.lxc (/var/lib/snapd/apparmor/profiles/snap.lxd.lxc line 449): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.migrate (/var/lib/snapd/apparmor/profiles/snap.lxd.migrate line 449): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 audit[1375]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxc" pid=1375 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1377]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.migrate" pid=1377 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1379]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.core" pid=1379 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1380]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.juju" pid=1380 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1378]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.conjure-up" pid=1378 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]: Warning from /var/lib/snapd/apparmor/profiles/snap.lxd.lxd (/var/lib/snapd/apparmor/profiles/snap.lxd.lxd line 449): Unconfined exec qualifier (ux) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.
+Oct 24 19:44:18 ssdnodes-85807 audit[1376]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxd" pid=1376 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 audit[1381]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.lxd" pid=1381 comm="apparmor_parser"
+Oct 24 19:44:18 ssdnodes-85807 apparmor[1198]:    ...done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started LSB: AppArmor initialization.
+-- Subject: Unit apparmor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apparmor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Reached target System Initialization.
+-- Subject: Unit sysinit.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysinit.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Listening on UUID daemon activation socket.
+-- Subject: Unit uuidd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit uuidd.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started Daily apt download activities.
+-- Subject: Unit apt-daily.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started Daily apt upgrade and clean activities.
+-- Subject: Unit apt-daily-upgrade.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily-upgrade.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Starting Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.socket has begun starting up.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+-- Subject: Unit snap.lxd.daemon.unix.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.daemon.unix.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Starting Docker Socket for the API.
+-- Subject: Unit docker.socket has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit docker.socket has begun starting up.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started ACPI Events Check.
+-- Subject: Unit acpid.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.path has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Reached target Paths.
+-- Subject: Unit paths.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit paths.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Reached target Timers.
+-- Subject: Unit timers.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit timers.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Listening on ACPID Listen Socket.
+-- Subject: Unit acpid.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started ifup for ens3.
+-- Subject: Unit ifup@ens3.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ifup@ens3.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Starting Raise network interfaces...
+-- Subject: Unit networking.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has begun starting up.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Listening on Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Listening on Docker Socket for the API.
+-- Subject: Unit docker.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit docker.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Reached target Sockets.
+-- Subject: Unit sockets.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sockets.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Reached target Basic System.
+-- Subject: Unit basic.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit basic.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Starting LSB: MD monitoring daemon...
+-- Subject: Unit mdadm.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mdadm.service has begun starting up.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Starting Accounts Service...
+-- Subject: Unit accounts-daemon.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has begun starting up.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Starting Login Service...
+-- Subject: Unit systemd-logind.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has begun starting up.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started Deferred execution scheduler.
+-- Subject: Unit atd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit atd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started ZFS Event Daemon (zed).
+-- Subject: Unit zed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 systemd[1]: Started D-Bus System Message Bus.
+-- Subject: Unit dbus.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:18 ssdnodes-85807 zed[1408]: ZFS Event Daemon 0.6.5.6-0ubuntu24 (PID 1408)
+Oct 24 19:44:18 ssdnodes-85807 zed[1408]: Processing events since eid=0
+Oct 24 19:44:18 ssdnodes-85807 dbus[1412]: [0;1;39m[system] AppArmor D-Bus mediation is enabled[0m
+Oct 24 19:44:18 ssdnodes-85807 dbus[1412]: [0;1;39m[system] Successfully activated service 'org.freedesktop.systemd1'[0m
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Started Regular background program processing daemon.
+-- Subject: Unit cron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cron.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Starting VirtualBox Linux kernel module...
+-- Subject: Unit vboxdrv.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxdrv.service has begun starting up.
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Starting System Logging Service...
+-- Subject: Unit rsyslog.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has begun starting up.
+Oct 24 19:44:19 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.188 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=55091 DPT=21587 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Starting Initialize hardware monitoring sensors...
+-- Subject: Unit lm-sensors.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lm-sensors.service has begun starting up.
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Started FUSE filesystem for LXC.
+-- Subject: Unit lxcfs.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxcfs.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:19 ssdnodes-85807 cron[1453]: (CRON) INFO (pidfile fd = 3)
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Starting Snappy daemon...
+-- Subject: Unit snapd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.service has begun starting up.
+Oct 24 19:44:19 ssdnodes-85807 dbus[1412]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'[0m
+Oct 24 19:44:19 ssdnodes-85807 cron[1453]: (CRON) INFO (Running @reboot jobs)
+Oct 24 19:44:19 ssdnodes-85807 kernel: [0;1;39mcgroup: new mount options do not match the existing superblock, will be ignored[0m
+Oct 24 19:44:19 ssdnodes-85807 mdadm[1393]:  * Starting MD monitoring service mdadm --monitor
+Oct 24 19:44:19 ssdnodes-85807 sensors[1464]: No sensors found!
+Oct 24 19:44:19 ssdnodes-85807 sensors[1464]: Make sure you loaded all the kernel drivers you need.
+Oct 24 19:44:19 ssdnodes-85807 sensors[1464]: Try sensors-detect to find out which these are.
+Oct 24 19:44:19 ssdnodes-85807 systemd-logind[1403]: New seat seat0.
+-- Subject: A new seat seat0 is now available
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new seat seat0 has been configured and is now available.
+Oct 24 19:44:19 ssdnodes-85807 systemd-logind[1403]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]: mount namespace: 5
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]: hierarchies:
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   0: fd:   6: pids
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   1: fd:   7: perf_event
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   2: fd:   8: freezer
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   3: fd:   9: hugetlb
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   4: fd:  10: memory
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   5: fd:  11: blkio
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   6: fd:  12: net_cls,net_prio
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   7: fd:  13: cpuset
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   8: fd:  14: devices
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:   9: fd:  15: cpu,cpuacct
+Oct 24 19:44:19 ssdnodes-85807 lxcfs[1465]:  10: fd:  16: name=systemd
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Started System Logging Service.
+-- Subject: Unit rsyslog.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:19 ssdnodes-85807 sensors[1507]: No sensors found!
+Oct 24 19:44:19 ssdnodes-85807 sensors[1507]: Make sure you loaded all the kernel drivers you need.
+Oct 24 19:44:19 ssdnodes-85807 sensors[1507]: Try sensors-detect to find out which these are.
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Started Initialize hardware monitoring sensors.
+-- Subject: Unit lm-sensors.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lm-sensors.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:19 ssdnodes-85807 acpid[1462]: starting up with netlink and the input layer
+Oct 24 19:44:19 ssdnodes-85807 acpid[1462]: 1 rule loaded
+Oct 24 19:44:19 ssdnodes-85807 acpid[1462]: waiting for events: event logging is off
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Started Login Service.
+-- Subject: Unit systemd-logind.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+-- Subject: Unit polkitd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has begun starting up.
+Oct 24 19:44:19 ssdnodes-85807 mdadm[1393]:    ...done.
+Oct 24 19:44:19 ssdnodes-85807 systemd[1]: Started LSB: MD monitoring daemon.
+-- Subject: Unit mdadm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mdadm.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 ifup[1471]: /sbin/ifup: waiting for lock on /run/network/ifstate.ens3
+Oct 24 19:44:20 ssdnodes-85807 polkitd[1535]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 24 19:44:20 ssdnodes-85807 dbus[1412]: [0;1;39m[system] Successfully activated service 'org.freedesktop.PolicyKit1'[0m
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+-- Subject: Unit polkitd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 accounts-daemon[1395]: started daemon version 0.6.40
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Started Accounts Service.
+-- Subject: Unit accounts-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 vboxdrv.sh[1457]: vboxdrv.sh: Starting VirtualBox services.
+Oct 24 19:44:20 ssdnodes-85807 vboxdrv.sh[1598]: [0;1;39mStarting VirtualBox services.[0m
+Oct 24 19:44:20 ssdnodes-85807 vboxdrv.sh[1457]: vboxdrv.sh: Building VirtualBox kernel modules.
+Oct 24 19:44:20 ssdnodes-85807 vboxdrv.sh[1614]: [0;1;39mBuilding VirtualBox kernel modules.[0m
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Started Raise network interfaces.
+-- Subject: Unit networking.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Reached target Network.
+-- Subject: Unit network.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 snapd[1468]: AppArmor status: apparmor is enabled and all features are available
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Reached target Network is Online.
+-- Subject: Unit network-online.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network-online.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Starting Service for snap application lxd.activate...
+-- Subject: Unit snap.lxd.activate.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.activate.service has begun starting up.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Starting Docker Application Container Engine...
+-- Subject: Unit docker.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit docker.service has begun starting up.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Started ZeroTier One.
+-- Subject: Unit zerotier-one.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zerotier-one.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Starting LSB: LWP Start script...
+-- Subject: Unit lwp.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lwp.service has begun starting up.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Starting LXC network bridge setup...
+-- Subject: Unit lxc-net.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxc-net.service has begun starting up.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Starting Fail2Ban Service...
+-- Subject: Unit fail2ban.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fail2ban.service has begun starting up.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Starting /etc/rc.local Compatibility...
+-- Subject: Unit rc-local.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has begun starting up.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Started Unattended Upgrades Shutdown.
+-- Subject: Unit unattended-upgrades.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit unattended-upgrades.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:20 ssdnodes-85807 systemd[1]: Starting iSCSI initiator daemon (iscsid)...
+-- Subject: Unit iscsid.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsid.service has begun starting up.
+Oct 24 19:44:21 ssdnodes-85807 systemd[1]: Starting OpenBSD Secure Shell server...
+-- Subject: Unit ssh.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun starting up.
+Oct 24 19:44:21 ssdnodes-85807 systemd[1]: Started /etc/rc.local Compatibility.
+-- Subject: Unit rc-local.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:21 ssdnodes-85807 lwp[1670]: Starting server...done.
+Oct 24 19:44:21 ssdnodes-85807 systemd[1]: Started LSB: LWP Start script.
+-- Subject: Unit lwp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lwp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:21 ssdnodes-85807 kernel: capability: warning: `zerotier-one' uses 32-bit capabilities (legacy support in use)
+Oct 24 19:44:21 ssdnodes-85807 kernel: bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+Oct 24 19:44:21 ssdnodes-85807 systemd-udevd[1710]: [0;1;39mCould not generate persistent MAC address for lxcbr0: No such file or directory[0m
+Oct 24 19:44:21 ssdnodes-85807 iscsid[1701]: [0;1;39miSCSI logger with pid=1715 started![0m
+Oct 24 19:44:21 ssdnodes-85807 systemd[1]: iscsid.service: Failed to read PID from file /run/iscsid.pid: Invalid argument
+Oct 24 19:44:21 ssdnodes-85807 iscsid[1715]: [0;1;31miSCSI daemon with pid=1716 started![0m
+Oct 24 19:44:21 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): lxcbr0: link is not ready
+Oct 24 19:44:21 ssdnodes-85807 systemd[1]: Started iSCSI initiator daemon (iscsid).
+-- Subject: Unit iscsid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:21 ssdnodes-85807 systemd[1]: Starting Login to default iSCSI targets...
+-- Subject: Unit open-iscsi.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit open-iscsi.service has begun starting up.
+Oct 24 19:44:21 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=159.203.68.238 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=53 ID=8762 DF PROTO=TCP SPT=56840 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:21 ssdnodes-85807 iscsiadm[1739]: iscsiadm: No records found
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Started Login to default iSCSI targets.
+-- Subject: Unit open-iscsi.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit open-iscsi.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Reached target Remote File Systems (Pre).
+-- Subject: Unit remote-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Reached target Remote File Systems.
+-- Subject: Unit remote-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting LSB: automatic crash report generation...
+-- Subject: Unit apport.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apport.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting Permit User Sessions...
+-- Subject: Unit systemd-user-sessions.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting LSB: disk temperature monitoring daemon...
+-- Subject: Unit hddtemp.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hddtemp.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+-- Subject: Unit irqbalance.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit irqbalance.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting LSB: Apache2 web server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting LSB: QEMU Guest Agent startup script...
+-- Subject: Unit qemu-guest-agent.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit qemu-guest-agent.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting LSB: Starts and daemonize Glances server...
+-- Subject: Unit glances.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit glances.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting LSB: Network share OpenZFS datasets....
+-- Subject: Unit zfs-share.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zfs-share.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Started Permit User Sessions.
+-- Subject: Unit systemd-user-sessions.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:22 ssdnodes-85807 apport[1768]:  * Starting automatic crash report generation: apport
+Oct 24 19:44:22 ssdnodes-85807 apache2[1774]:  * Starting Apache httpd web server apache2
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting Hold until boot process finishes up...
+-- Subject: Unit plymouth-quit-wait.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Starting Terminate Plymouth Boot Screen...
+-- Subject: Unit plymouth-quit.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit.service has begun starting up.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Started LSB: disk temperature monitoring daemon.
+-- Subject: Unit hddtemp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hddtemp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Started LSB: Network share OpenZFS datasets..
+-- Subject: Unit zfs-share.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zfs-share.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:22 ssdnodes-85807 systemd[1]: Started Hold until boot process finishes up.
+-- Subject: Unit plymouth-quit-wait.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Started Terminate Plymouth Boot Screen.
+-- Subject: Unit plymouth-quit.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 irqbalance[1771]:  * Starting SMP IRQ Balancer: irqbalance
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq[1889]: started, version 2.75 cachesize 150
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq[1889]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq-dhcp[1889]: DHCP, IP range 10.0.3.2 -- 10.0.3.254, lease time 1h
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq-dhcp[1889]: DHCP, sockets bound exclusively to interface lxcbr0
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq[1889]: reading /etc/resolv.conf
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq[1889]: using nameserver 8.8.4.4#53
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq[1889]: using nameserver 8.8.8.8#53
+Oct 24 19:44:23 ssdnodes-85807 dnsmasq[1889]: read /etc/hosts - 5 addresses
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Started LXC network bridge setup.
+-- Subject: Unit lxc-net.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxc-net.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Starting LXC Container Initialization and Autoboot Code...
+-- Subject: Unit lxc.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxc.service has begun starting up.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Starting Set console scheme...
+-- Subject: Unit setvtrgb.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit setvtrgb.service has begun starting up.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Started Getty on tty1.
+-- Subject: Unit getty@tty1.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty@tty1.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Reached target Login Prompts.
+-- Subject: Unit getty.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Reached target ZFS startup target.
+-- Subject: Unit zfs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit zfs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 irqbalance[1771]:    ...done.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+-- Subject: Unit irqbalance.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit irqbalance.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 audit[1919]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/lxc-start" pid=1919 comm="apparmor_parser"
+Oct 24 19:44:23 ssdnodes-85807 apport[1768]:    ...done.
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Started LSB: automatic crash report generation.
+-- Subject: Unit apport.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apport.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 kernel: [0;1;39maudit_printk_skb: 90 callbacks suppressed[0m
+Oct 24 19:44:23 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435463.556:42): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/lxc-start" pid=1919 comm="apparmor_parser"[0m
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Started Set console scheme.
+-- Subject: Unit setvtrgb.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit setvtrgb.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 glances[1784]:  * Starting Glances server glances
+Oct 24 19:44:23 ssdnodes-85807 audit[1931]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default" pid=1931 comm="apparmor_parser"
+Oct 24 19:44:23 ssdnodes-85807 audit[1931]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-cgns" pid=1931 comm="apparmor_parser"
+Oct 24 19:44:23 ssdnodes-85807 audit[1931]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-mounting" pid=1931 comm="apparmor_parser"
+Oct 24 19:44:23 ssdnodes-85807 audit[1931]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-nesting" pid=1931 comm="apparmor_parser"
+Oct 24 19:44:23 ssdnodes-85807 glances[1784]:  * Not starting glances: disabled by /etc/default/glances.
+Oct 24 19:44:23 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435463.860:43): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default" pid=1931 comm="apparmor_parser"[0m
+Oct 24 19:44:23 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435463.860:44): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-cgns" pid=1931 comm="apparmor_parser"[0m
+Oct 24 19:44:23 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435463.860:45): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-mounting" pid=1931 comm="apparmor_parser"[0m
+Oct 24 19:44:23 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435463.860:46): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-nesting" pid=1931 comm="apparmor_parser"[0m
+Oct 24 19:44:23 ssdnodes-85807 systemd[1]: Started LSB: Starts and daemonize Glances server.
+-- Subject: Unit glances.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit glances.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 sshd[1695]: Server listening on 0.0.0.0 port 22.
+Oct 24 19:44:24 ssdnodes-85807 systemd[1]: Started LSB: QEMU Guest Agent startup script.
+-- Subject: Unit qemu-guest-agent.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit qemu-guest-agent.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:23 ssdnodes-85807 sshd[1695]: Server listening on :: port 22.
+Oct 24 19:44:24 ssdnodes-85807 systemd[1]: Started OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:25 ssdnodes-85807 systemd[1]: Started LXC Container Initialization and Autoboot Code.
+-- Subject: Unit lxc.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxc.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:25 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.137 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=46377 DPT=56883 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:25 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=80.211.214.252 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=53 ID=24804 DF PROTO=TCP SPT=40570 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:25 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.135 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=51481 DPT=53367 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:26 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.20 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=41634 DPT=20925 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:26 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=80.211.214.252 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=53 ID=24805 DF PROTO=TCP SPT=40570 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:27 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=35.193.114.148 DST=172.93.55.99 LEN=199 TOS=0x00 PREC=0x00 TTL=55 ID=29721 DF PROTO=UDP SPT=30303 DPT=30303 LEN=179 [0m
+Oct 24 19:44:27 ssdnodes-85807 apache2[1774]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Oct 24 19:44:28 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=77.72.82.22 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=58146 PROTO=TCP SPT=46742 DPT=58021 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:28 ssdnodes-85807 snapd[1468]: AppArmor status: apparmor is enabled and all features are available
+Oct 24 19:44:28 ssdnodes-85807 lxd.activate[1662]: => Starting LXD activation
+Oct 24 19:44:28 ssdnodes-85807 lxd.activate[1662]: ==> Loading snap configuration
+Oct 24 19:44:28 ssdnodes-85807 lxd.activate[1662]: ==> Checking for socket activation support
+Oct 24 19:44:28 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.242 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=48881 DPT=48106 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:29 ssdnodes-85807 lxd.activate[1662]: ==> Setting LXD socket ownership
+Oct 24 19:44:29 ssdnodes-85807 lxd.activate[1662]: ==> Checking if LXD needs to be activated
+Oct 24 19:44:29 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:29.562126987-07:00" level=info msg="libcontainerd: started new docker-containerd process" pid=2034
+Oct 24 19:44:29 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:29.562879913-07:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Oct 24 19:44:29 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:29.563129693-07:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Oct 24 19:44:29 ssdnodes-85807 snapd[1468]: daemon.go:344: started snapd/2.35.4 (series 16; classic) ubuntu/16.04 (amd64) linux/4.4.0-138-generic.
+Oct 24 19:44:29 ssdnodes-85807 systemd[1]: Started Snappy daemon.
+-- Subject: Unit snapd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:29 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:29.574022475-07:00" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/docker-containerd.sock 0  <nil>}]" module=grpc
+Oct 24 19:44:29 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:29.574295282-07:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Oct 24 19:44:29 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:29.574415246-07:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201ccdf0, CONNECTING" module=grpc
+Oct 24 19:44:29 ssdnodes-85807 systemd[1]: Starting Wait until snapd is fully seeded...
+-- Subject: Unit snapd.seeded.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.seeded.service has begun starting up.
+Oct 24 19:44:29 ssdnodes-85807 qemu-ga[1942]: info: guest-exec called: "prl_nettool set --hostname ssdnodes-85807 --ip 00:1c:42:43:15:93 172.93.55.99/255.255.255.0 --gateway 00:1c:42:43:15:93 172.93.55.1  --dns 00:1c:42:43:15:93 8.8.4.4 8.8.8.8"
+Oct 24 19:44:29 ssdnodes-85807 prl_nettool[2041]: [0;1;31mcall: prl_nettool prl_nettool set --hostname ssdnodes-85807 --ip 00:1c:42:43:15:93 172.93.55.99/255.255.255.0 --gateway 00:1c:42:43:15:93 "172.93.55.1 " --dns 00:1c:42:43:15:93 "8.8.4.4 8.8.8.8"[0m
+Oct 24 19:44:29 ssdnodes-85807 fail2ban-client[1680]: 2018-10-24 19:44:29,956 fail2ban.server         [2005]: INFO    Starting Fail2ban v0.9.3
+Oct 24 19:44:29 ssdnodes-85807 fail2ban-client[1680]: 2018-10-24 19:44:29,956 fail2ban.server         [2005]: INFO    Starting in daemon mode
+Oct 24 19:44:29 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:30 ssdnodes-85807 systemd[1]: Started Wait until snapd is fully seeded.
+-- Subject: Unit snapd.seeded.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.seeded.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:30 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:30 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=203.24.188.100 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=48239 DPT=8545 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:30 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=5.34.180.104 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=34973 DPT=21593 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:30 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:30 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:31 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:31 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:31 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:32 ssdnodes-85807 apache2[1774]:  *
+Oct 24 19:44:32 ssdnodes-85807 systemd[1]: Started LSB: Apache2 web server.
+-- Subject: Unit apache2.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:32 ssdnodes-85807 systemd[1]: Starting SYSV: Rebind virtio device from virtio_balloon to vzvirtio_balloon...
+-- Subject: Unit vzballoon_bind.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vzballoon_bind.service has begun starting up.
+Oct 24 19:44:32 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:32 ssdnodes-85807 systemd[1]: Started Fail2Ban Service.
+-- Subject: Unit fail2ban.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fail2ban.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:32 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:32 ssdnodes-85807 systemd[1]: Started SYSV: Rebind virtio device from virtio_balloon to vzvirtio_balloon.
+-- Subject: Unit vzballoon_bind.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vzballoon_bind.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:32 ssdnodes-85807 systemd[1]: Starting LSB: Record successful boot for GRUB...
+-- Subject: Unit grub-common.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit grub-common.service has begun starting up.
+Oct 24 19:44:33 ssdnodes-85807 systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+-- Subject: Unit ondemand.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ondemand.service has begun starting up.
+Oct 24 19:44:33 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:33 ssdnodes-85807 systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+-- Subject: Unit ondemand.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ondemand.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:33 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:33 ssdnodes-85807 systemd[1]: Started LSB: Record successful boot for GRUB.
+-- Subject: Unit grub-common.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit grub-common.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="starting containerd" revision=468a545b9edcd5932818eb9de8e72413e616e86e version=v1.1.2
+Oct 24 19:44:34 ssdnodes-85807 systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.content.v1.content"..." type=io.containerd.content.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.snapshotter.v1.btrfs"..." type=io.containerd.snapshotter.v1
+Oct 24 19:44:34 ssdnodes-85807 sshd[1695]: Received SIGHUP; restarting.
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.btrfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.snapshotter.v1.aufs"..." type=io.containerd.snapshotter.v1
+Oct 24 19:44:34 ssdnodes-85807 systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+Oct 24 19:44:34 ssdnodes-85807 sshd[1695]: Server listening on 0.0.0.0 port 22.
+Oct 24 19:44:34 ssdnodes-85807 sshd[1695]: Server listening on :: port 22.
+Oct 24 19:44:34 ssdnodes-85807 kernel: aufs 4.x-rcN-20160111
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.snapshotter.v1.native"..." type=io.containerd.snapshotter.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.snapshotter.v1.overlayfs"..." type=io.containerd.snapshotter.v1
+Oct 24 19:44:34 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.snapshotter.v1.zfs"..." type=io.containerd.snapshotter.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.zfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.metadata.v1.bolt"..." type=io.containerd.metadata.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=warning msg="could not use snapshotter zfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=warning msg="could not use snapshotter btrfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.differ.v1.walking"..." type=io.containerd.differ.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.gc.v1.scheduler"..." type=io.containerd.gc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.containers-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.content-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.diff-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.images-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.leases-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.namespaces-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.snapshots-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.monitor.v1.cgroups"..." type=io.containerd.monitor.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.runtime.v1.linux"..." type=io.containerd.runtime.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.service.v1.tasks-service"..." type=io.containerd.service.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.containers"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.content"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.diff"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.events"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.healthcheck"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.images"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.leases"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.namespaces"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.snapshots"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.tasks"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.version"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.introspection"..." type=io.containerd.grpc.v1
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg=serving... address="/var/run/docker/containerd/docker-containerd-debug.sock"
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg=serving... address="/var/run/docker/containerd/docker-containerd.sock"
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34-07:00" level=info msg="containerd successfully booted in 0.802025s"
+Oct 24 19:44:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:34.954669243-07:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201ccdf0, READY" module=grpc
+Oct 24 19:44:35 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:35.057236136-07:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Oct 24 19:44:35 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:35.057317341-07:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Oct 24 19:44:35 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:35.057488800-07:00" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/docker-containerd.sock 0  <nil>}]" module=grpc
+Oct 24 19:44:35 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:35.057510586-07:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Oct 24 19:44:35 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:35.057583940-07:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201cd880, CONNECTING" module=grpc
+Oct 24 19:44:35 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:35.057832221-07:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201cd880, READY" module=grpc
+Oct 24 19:44:35 ssdnodes-85807 systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+Oct 24 19:44:35 ssdnodes-85807 systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+Oct 24 19:44:35 ssdnodes-85807 sshd[1695]: Received SIGHUP; restarting.
+Oct 24 19:44:35 ssdnodes-85807 sshd[1695]: Server listening on 0.0.0.0 port 22.
+Oct 24 19:44:35 ssdnodes-85807 sshd[1695]: Server listening on :: port 22.
+Oct 24 19:44:35 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:37 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:37 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT=ens3 MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=146.148.119.250 DST=172.18.0.2 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=6210 DF PROTO=TCP SPT=49264 DPT=443 WINDOW=28400 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:37 ssdnodes-85807 systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+Oct 24 19:44:37 ssdnodes-85807 systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+Oct 24 19:44:37 ssdnodes-85807 sshd[1695]: Received SIGHUP; restarting.
+Oct 24 19:44:37 ssdnodes-85807 sshd[1695]: Server listening on 0.0.0.0 port 22.
+Oct 24 19:44:37 ssdnodes-85807 sshd[1695]: Server listening on :: port 22.
+Oct 24 19:44:38 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:38 ssdnodes-85807 snapd[1468]: storehelpers.go:398: cannot refresh: snap has no updates available: "conjure-up", "core", "juju"
+Oct 24 19:44:39 ssdnodes-85807 systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+Oct 24 19:44:39 ssdnodes-85807 sshd[1695]: Received SIGHUP; restarting.
+Oct 24 19:44:39 ssdnodes-85807 systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+Oct 24 19:44:39 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT=ens3 MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=146.148.119.250 DST=172.18.0.2 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=6211 DF PROTO=TCP SPT=49264 DPT=443 WINDOW=28400 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:39 ssdnodes-85807 sshd[1695]: Server listening on 0.0.0.0 port 22.
+Oct 24 19:44:39 ssdnodes-85807 sshd[1695]: Server listening on :: port 22.
+Oct 24 19:44:39 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:39 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=1.167.48.181 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=241 ID=65205 PROTO=UDP SPT=34745 DPT=9993 LEN=36 [0m
+Oct 24 19:44:39 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=1.167.48.181 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=241 ID=31550 PROTO=UDP SPT=35769 DPT=9993 LEN=36 [0m
+Oct 24 19:44:39 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=1.167.48.181 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=241 ID=33314 PROTO=UDP SPT=34745 DPT=26153 LEN=36 [0m
+Oct 24 19:44:39 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=1.167.48.181 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=241 ID=4309 PROTO=UDP SPT=35769 DPT=26153 LEN=36 [0m
+Oct 24 19:44:39 ssdnodes-85807 systemd[1]: Started Service for snap application lxd.daemon.
+-- Subject: Unit snap.lxd.daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:44:40 ssdnodes-85807 kernel: nf_conntrack: automatic helper assignment is deprecated and it will be removed soon. Use the iptables CT target to attach helpers instead.
+Oct 24 19:44:40 ssdnodes-85807 dnsmasq[1889]: [0;1;39mno servers found in /etc/resolv.conf, will retry[0m
+Oct 24 19:44:40 ssdnodes-85807 dnsmasq[1889]: reading /etc/resolv.conf
+Oct 24 19:44:40 ssdnodes-85807 dnsmasq[1889]: using nameserver 8.8.4.4#53
+Oct 24 19:44:40 ssdnodes-85807 dnsmasq[1889]: using nameserver 8.8.8.8#53
+Oct 24 19:44:40 ssdnodes-85807 dnsmasq[1889]: reading /etc/resolv.conf
+Oct 24 19:44:40 ssdnodes-85807 dnsmasq[1889]: using nameserver 8.8.4.4#53
+Oct 24 19:44:40 ssdnodes-85807 dnsmasq[1889]: using nameserver 8.8.8.8#53
+Oct 24 19:44:40 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:40 ssdnodes-85807 lxd.daemon[2646]: => Preparing the system
+Oct 24 19:44:40 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.226 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=52607 DPT=8595 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:40 ssdnodes-85807 lxd.daemon[2646]: ==> Loading snap configuration
+Oct 24 19:44:40 ssdnodes-85807 lxd.daemon[2646]: ==> Setting up mntns symlink (mnt:[4026532199])
+Oct 24 19:44:40 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=148.163.170.49 DST=172.93.55.99 LEN=157 TOS=0x00 PREC=0x00 TTL=119 ID=24071 PROTO=UDP SPT=30303 DPT=30303 LEN=137 [0m
+Oct 24 19:44:41 ssdnodes-85807 lxd.daemon[2646]: ==> Setting up persistent shmounts path
+Oct 24 19:44:41 ssdnodes-85807 lxd.daemon[2646]: ====> Making LXD shmounts use the persistent path
+Oct 24 19:44:41 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=34.253.120.211 DST=172.93.55.99 LEN=167 TOS=0x00 PREC=0x00 TTL=40 ID=12846 DF PROTO=UDP SPT=21000 DPT=30303 LEN=147 [0m
+Oct 24 19:44:42 ssdnodes-85807 lxd.daemon[2646]: ====> Making LXCFS use the persistent path
+Oct 24 19:44:42 ssdnodes-85807 lxd.daemon[2646]: ==> Setting up kmod wrapper
+Oct 24 19:44:42 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 2041
+Oct 24 19:44:42 ssdnodes-85807 lxd.daemon[2646]: ==> Preparing /boot
+Oct 24 19:44:42 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.137 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=38826 DPT=24469 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:42 ssdnodes-85807 lxd.daemon[2646]: ==> Preparing a clean copy of /run
+Oct 24 19:44:42 ssdnodes-85807 lxd.daemon[2646]: ==> Preparing a clean copy of /etc
+Oct 24 19:44:42 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=67.198.75.27 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=121 ID=8253 DF PROTO=TCP SPT=55119 DPT=30303 WINDOW=64240 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:43 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.20 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=42936 DPT=63793 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:43 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT=ens3 MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=146.148.119.250 DST=172.18.0.2 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=6212 DF PROTO=TCP SPT=49264 DPT=443 WINDOW=28400 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:44:46 ssdnodes-85807 systemd-timesyncd[1232]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Oct 24 19:44:49 ssdnodes-85807 lxd.daemon[2646]: ==> Setting up ceph configuration
+Oct 24 19:44:49 ssdnodes-85807 lxd.daemon[2646]: ==> Setting up LVM configuration
+Oct 24 19:44:50 ssdnodes-85807 lxd.daemon[2646]: ==> Rotating logs
+Oct 24 19:44:51 ssdnodes-85807 lxd.daemon[2646]: ==> Setting up ZFS (0.6)
+Oct 24 19:44:51 ssdnodes-85807 lxd.daemon[2646]: ==> Escaping the systemd cgroups
+Oct 24 19:44:52 ssdnodes-85807 lxd.daemon[2646]: ==> Escaping the systemd process resource limits
+Oct 24 19:44:52 ssdnodes-85807 lxd.daemon[2646]: ==> Increasing the number of inotify user instances
+Oct 24 19:44:53 ssdnodes-85807 lxd.daemon[2646]: => Starting LXCFS
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]: => Starting LXD
+Oct 24 19:44:54 ssdnodes-85807 kernel: [0;1;39mcgroup: new mount options do not match the existing superblock, will be ignored[0m
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]: mount namespace: 6
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]: hierarchies:
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   0: fd:   7: pids
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   1: fd:   8: perf_event
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   2: fd:   9: freezer
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   3: fd:  10: hugetlb
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   4: fd:  11: memory
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   5: fd:  12: blkio
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   6: fd:  13: net_cls,net_prio
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   7: fd:  14: cpuset
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   8: fd:  15: devices
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:   9: fd:  16: cpu,cpuacct
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]:  10: fd:  17: name=systemd
+Oct 24 19:44:54 ssdnodes-85807 lxd.daemon[2646]: lvl=warn msg="CGroup memory swap accounting is disabled, swap limits will be ignored." t=2018-10-24T19:44:54-0700
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.454545240-07:00" level=info msg="Graph migration to content-addressability took 0.00 seconds"
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.455281975-07:00" level=warning msg="Your kernel does not support swap memory limit"
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.455374915-07:00" level=warning msg="Your kernel does not support cgroup rt period"
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.455409138-07:00" level=warning msg="Your kernel does not support cgroup rt runtime"
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.549112223-07:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.549543052-07:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.549931888-07:00" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/docker-containerd.sock 0  <nil>}]" module=grpc
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.550370554-07:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.552260542-07:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201cd6a0, CONNECTING" module=grpc
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.553126005-07:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201cd6a0, READY" module=grpc
+Oct 24 19:44:57 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:44:57.553503635-07:00" level=info msg="Loading containers: start."
+Oct 24 19:44:59 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=206.189.89.142 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=50 ID=43302 DF PROTO=TCP SPT=48594 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:01 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=83 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=43 [0m
+Oct 24 19:45:02 ssdnodes-85807 CRON[3099]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:45:03 ssdnodes-85807 CRON[3116]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:45:04 ssdnodes-85807 CRON[3099]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:45:04 ssdnodes-85807 CRON[3099]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:45:16 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:16.482517336-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/tmp/docker-aufs-union802378536" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:45:16 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3283]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:45:16 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3283]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:45:16 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:16.592345814-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/aufs/mnt/7cca5815a49cecae4a5ed1c91786bcaa35a6b82a87bec56655ae10da9a4fef99" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:45:16 ssdnodes-85807 kernel: [0;1;39mBridge firewalling registered[0m
+Oct 24 19:45:17 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.20 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=59205 DPT=64152 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:17 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.135 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=44434 DPT=292 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:18 ssdnodes-85807 kernel: Initializing XFRM netlink socket
+Oct 24 19:45:18 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.242 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=58902 DPT=35430 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:18 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=52.163.116.227 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=52253 DF PROTO=TCP SPT=35066 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:18 ssdnodes-85807 kernel: Netfilter messages via NETLINK v0.30.
+Oct 24 19:45:19 ssdnodes-85807 kernel: ctnetlink v0.93: registering with nfnetlink.
+Oct 24 19:45:19 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=52.163.116.227 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=52254 DF PROTO=TCP SPT=35066 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:21 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): docker0: link is not ready
+Oct 24 19:45:21 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=223.197.161.65 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=50 ID=15502 DF PROTO=TCP SPT=9282 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:21 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=223.197.161.65 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=50 ID=8162 DF PROTO=TCP SPT=54608 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:21 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:45:21 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.41 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=43508 DPT=65113 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:21 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=203.24.188.100 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=37314 DPT=8545 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:21 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=52.163.116.227 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=52255 DF PROTO=TCP SPT=35066 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:22 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): br-016ae2cfef18: link is not ready
+Oct 24 19:45:22 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=223.197.161.65 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=50 ID=15503 DF PROTO=TCP SPT=9282 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:22 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=223.197.161.65 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=50 ID=8163 DF PROTO=TCP SPT=54608 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:22 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:22 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:45:23 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): br-88f28d2029e3: link is not ready
+Oct 24 19:45:23 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:23 ssdnodes-85807 systemd[1]: Mounting Mount unit for lxd, revision 9302...
+-- Subject: Unit snap-lxd-9302.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9302.mount has begun starting up.
+Oct 24 19:45:24 ssdnodes-85807 systemd[1]: Mounted Mount unit for lxd, revision 9302.
+-- Subject: Unit snap-lxd-9302.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9302.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:24 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=223.197.161.65 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=50 ID=15504 DF PROTO=TCP SPT=9282 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:24 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=223.197.161.65 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=50 ID=8164 DF PROTO=TCP SPT=54608 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:24 ssdnodes-85807 qemu-ga[1942]: info: guest-exec called: "uname -srv"
+Oct 24 19:45:24 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): br-d841f6db6b92: link is not ready
+Oct 24 19:45:24 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3837
+Oct 24 19:45:25 ssdnodes-85807 systemd[1]: Closed Socket unix for snap application lxd.daemon.
+-- Subject: Unit snap.lxd.daemon.unix.socket has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.daemon.unix.socket has finished shutting down.
+Oct 24 19:45:25 ssdnodes-85807 qemu-ga[1942]: info: guest-exec called: "uptime -s"
+Oct 24 19:45:25 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3862
+Oct 24 19:45:25 ssdnodes-85807 systemd[1]: Stopping Service for snap application lxd.daemon...
+-- Subject: Unit snap.lxd.daemon.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.daemon.service has begun shutting down.
+Oct 24 19:45:25 ssdnodes-85807 qemu-ga[1942]: info: guest-exec called: "ps -eo pid,user,pcpu,etimes,time,rss,comm,args"
+Oct 24 19:45:25 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=52.204.35.243 DST=172.93.55.99 LEN=167 TOS=0x00 PREC=0x00 TTL=45 ID=38433 DF PROTO=UDP SPT=38566 DPT=30303 LEN=147 [0m
+Oct 24 19:45:25 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=109.110.37.200 DST=172.93.55.99 LEN=155 TOS=0x00 PREC=0x00 TTL=49 ID=52705 DF PROTO=UDP SPT=30668 DPT=30303 LEN=135 [0m
+Oct 24 19:45:25 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:26 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:26 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:26 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:27 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:27 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=5.34.180.104 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=38358 DPT=9090 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: started, version 2.75 cachesize 150
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCP, IP range 10.233.127.2 -- 10.233.127.254, lease time 1h
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCPv6 stateless on lxcbr0
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCPv4-derived IPv6 names on lxcbr0
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: router advertisement on lxcbr0
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCPv6 stateless on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCPv4-derived IPv6 names on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: router advertisement on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: IPv6 router advertisement enabled
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCP, sockets bound exclusively to interface lxcbr0
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: using local addresses only for domain lxd
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: reading /etc/resolv.conf
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: using local addresses only for domain lxd
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: using nameserver 8.8.4.4#53
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: using nameserver 8.8.8.8#53
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: read /etc/hosts - 5 addresses
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: read /var/snap/lxd/common/lxd/networks/lxcbr0/dnsmasq.hosts/webserver
+Oct 24 19:45:27 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=109.110.37.200 DST=172.93.55.99 LEN=155 TOS=0x00 PREC=0x00 TTL=49 ID=52771 DF PROTO=UDP SPT=30668 DPT=30303 LEN=135 [0m
+Oct 24 19:45:27 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq[3924]: read /etc/hosts - 5 addresses
+Oct 24 19:45:27 ssdnodes-85807 dnsmasq-dhcp[3924]: read /var/snap/lxd/common/lxd/networks/lxcbr0/dnsmasq.hosts/webserver
+Oct 24 19:45:27 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:28 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 3881
+Oct 24 19:45:28 ssdnodes-85807 systemd[1]: Started Service for snap application lxd.activate.
+-- Subject: Unit snap.lxd.activate.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.activate.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:28 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:28.802475325-07:00" level=info msg="Removing stale sandbox 704021c1f64af10e5a9fd04683ef2bb32bf76143bde35e838e03e2ecb0e0c414 (b6d176b149d18b1acc02f8aeb2ff509b0bd02e1224607d718fa1029bae2c27cd)"
+Oct 24 19:45:29 ssdnodes-85807 lxd.daemon[3876]: => Stop reason is: snap refresh
+Oct 24 19:45:29 ssdnodes-85807 lxd.daemon[3876]: => Stopping LXD
+Oct 24 19:45:29 ssdnodes-85807 lxd.daemon[2646]: lvl=warn msg="Failed to update instance types: Get https://images.linuxcontainers.org/meta/instance-types/.yaml: context canceled" t=2018-10-24T19:45:29-0700
+Oct 24 19:45:30 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:30.107065021-07:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint 88f28d2029e35307d27440e23f40eb374d483dedf7d297d1e0c444a701d2ab4a bca19dec088ece510f813727657830453941e070eab90da74f7438823275d955], retrying...."
+Oct 24 19:45:30 ssdnodes-85807 lxd.daemon[2646]: => LXD failed to start
+Oct 24 19:45:30 ssdnodes-85807 systemd[1]: [0;1;39msnap.lxd.daemon.service: Main process exited, code=exited, status=137/n/a[0m
+Oct 24 19:45:31 ssdnodes-85807 systemd[1]: Stopped Service for snap application lxd.daemon.
+-- Subject: Unit snap.lxd.daemon.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.daemon.service has finished shutting down.
+Oct 24 19:45:31 ssdnodes-85807 systemd[1]: [0;1;39msnap.lxd.daemon.service: Unit entered failed state.[0m
+Oct 24 19:45:31 ssdnodes-85807 systemd[1]: [0;1;39msnap.lxd.daemon.service: Failed with result 'exit-code'.[0m
+Oct 24 19:45:31 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:31.399399360-07:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Oct 24 19:45:31 ssdnodes-85807 systemd[1]: Stopped Service for snap application lxd.activate.
+-- Subject: Unit snap.lxd.activate.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.activate.service has finished shutting down.
+Oct 24 19:45:32 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.244 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=60563 DPT=38524 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:32 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=45.76.170.255 DST=172.93.55.99 LEN=167 TOS=0x00 PREC=0x00 TTL=55 ID=34490 DF PROTO=UDP SPT=27030 DPT=30303 LEN=147 [0m
+Oct 24 19:45:32 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=18.234.252.142 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=64301 DF PROTO=TCP SPT=42854 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:33 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:45:33 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=18.234.252.142 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=64302 DF PROTO=TCP SPT=42854 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:35 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:35 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:45:35 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=18.234.252.142 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=64303 DF PROTO=TCP SPT=42854 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.41 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=43568 DPT=58742 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.102.31 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=58989 DPT=21812 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:36 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:36 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=147.135.243.251 DST=172.93.55.99 LEN=167 TOS=0x00 PREC=0x00 TTL=53 ID=51888 DF PROTO=UDP SPT=30303 DPT=30303 LEN=147 [0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3281]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3290]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[2020]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3269]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: device veth80d1b0a entered promiscuous mode
+Oct 24 19:45:36 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): veth80d1b0a: link is not ready
+Oct 24 19:45:36 ssdnodes-85807 systemd-udevd[4136]: [0;1;39mCould not generate persistent MAC address for vethd9c5130: No such file or directory[0m
+Oct 24 19:45:36 ssdnodes-85807 systemd-udevd[4137]: [0;1;39mCould not generate persistent MAC address for veth80d1b0a: No such file or directory[0m
+Oct 24 19:45:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.226 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=38961 DPT=63107 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:37 ssdnodes-85807 kernel: device vethf2d1d6d entered promiscuous mode
+Oct 24 19:45:37 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): vethf2d1d6d: link is not ready
+Oct 24 19:45:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 2(vethf2d1d6d) entered forwarding state
+Oct 24 19:45:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 2(vethf2d1d6d) entered forwarding state
+Oct 24 19:45:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 2(vethf2d1d6d) entered disabled state
+Oct 24 19:45:37 ssdnodes-85807 systemd-udevd[4135]: [0;1;39mCould not generate persistent MAC address for veth9a1db37: No such file or directory[0m
+Oct 24 19:45:37 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=203.24.188.100 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=37326 DPT=8545 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:37 ssdnodes-85807 systemd-udevd[4193]: [0;1;39mCould not generate persistent MAC address for vethf2d1d6d: No such file or directory[0m
+Oct 24 19:45:37 ssdnodes-85807 kernel: device vetha722c12 entered promiscuous mode
+Oct 24 19:45:37 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): vetha722c12: link is not ready
+Oct 24 19:45:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered forwarding state
+Oct 24 19:45:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered forwarding state
+Oct 24 19:45:37 ssdnodes-85807 systemd-udevd[4136]: [0;1;39mCould not generate persistent MAC address for veth2c2b4a1: No such file or directory[0m
+Oct 24 19:45:37 ssdnodes-85807 systemd-udevd[4198]: [0;1;39mCould not generate persistent MAC address for vetha722c12: No such file or directory[0m
+Oct 24 19:45:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered disabled state
+Oct 24 19:45:38 ssdnodes-85807 systemd[1]: Starting Daily apt download activities...
+-- Subject: Unit apt-daily.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has begun starting up.
+Oct 24 19:45:38 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:38 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=148.163.170.49 DST=172.93.55.99 LEN=157 TOS=0x00 PREC=0x00 TTL=119 ID=16093 PROTO=UDP SPT=30303 DPT=30303 LEN=137 [0m
+Oct 24 19:45:38 ssdnodes-85807 kernel: device veth0e00dd1 entered promiscuous mode
+Oct 24 19:45:38 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): veth0e00dd1: link is not ready
+Oct 24 19:45:38 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth0e00dd1) entered forwarding state
+Oct 24 19:45:38 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth0e00dd1) entered forwarding state
+Oct 24 19:45:38 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth0e00dd1) entered disabled state
+Oct 24 19:45:38 ssdnodes-85807 systemd-udevd[4137]: [0;1;39mCould not generate persistent MAC address for veth0e00dd1: No such file or directory[0m
+Oct 24 19:45:38 ssdnodes-85807 systemd-udevd[4135]: [0;1;39mCould not generate persistent MAC address for vethed4623e: No such file or directory[0m
+Oct 24 19:45:39 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:45:39 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.137 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=35935 DPT=18448 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:39 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=5.34.180.104 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=42885 DPT=30301 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:40 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:40-07:00" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/b6d176b149d18b1acc02f8aeb2ff509b0bd02e1224607d718fa1029bae2c27cd/shim.sock" debug=false pid=4434
+Oct 24 19:45:40 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:45:40 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=34.235.116.164 DST=172.93.55.99 LEN=157 TOS=0x00 PREC=0x00 TTL=46 ID=47249 DF PROTO=UDP SPT=30303 DPT=30303 LEN=137 [0m
+Oct 24 19:45:41 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:41-07:00" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/28b825b7766936040e4550c9f1e3c00b98a6ee3413365f4671e0c14d8072a86f/shim.sock" debug=false pid=4479
+Oct 24 19:45:41 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=103.5.193.3 DST=172.93.55.99 LEN=167 TOS=0x00 PREC=0x00 TTL=48 ID=54369 DF PROTO=UDP SPT=30303 DPT=30303 LEN=147 [0m
+Oct 24 19:45:41 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.242 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=36137 DPT=60106 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:41 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:41-07:00" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/feb12a187097b398bcbe0788ae3703905f37893c4b4539576fe06f0b7441db5e/shim.sock" debug=false pid=4492
+Oct 24 19:45:42 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:45:42 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:42.908570745-07:00" level=warning msg="Failed to allocate and map port 80-80: Error starting userland proxy: listen tcp 0.0.0.0:80: listen: address already in use"
+Oct 24 19:45:43 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.188 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=49750 DPT=30345 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:44 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth0e00dd1) entered disabled state
+Oct 24 19:45:44 ssdnodes-85807 kernel: device veth0e00dd1 left promiscuous mode
+Oct 24 19:45:44 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth0e00dd1) entered disabled state
+Oct 24 19:45:46 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:46.018433049-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/aufs/mnt/5b149e20bd6609635d43ebe8619d703c7c4a30332f974e31fa65bed37436c226" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:45:46 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.135 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=54012 DPT=23478 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:46 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:46.724329903-07:00" level=error msg="5509e56c54a1f540dacf9f3119f44e007ab05416429c032bcc30753b9b905d1c cleanup: failed to delete container from containerd: no such container"
+Oct 24 19:45:46 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:46.724394112-07:00" level=error msg="Failed to start container 5509e56c54a1f540dacf9f3119f44e007ab05416429c032bcc30753b9b905d1c: driver failed programming external connectivity on endpoint traefik (5005fbafaa31033014bae21577dbdcef258925319b06638c925081b69c2a0066): Error starting userland proxy: listen tcp 0.0.0.0:80: listen: address already in use"
+Oct 24 19:45:46 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.20 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=55052 DPT=13178 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:47 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=23.251.144.62 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=56 ID=37247 DF PROTO=TCP SPT=58920 DPT=443 WINDOW=28400 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:47 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=35.180.114.138 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=27173 DF PROTO=TCP SPT=52228 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:47 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=47.52.67.29 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=55193 DF PROTO=TCP SPT=23539 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:48 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.41 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=50637 DPT=30894 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:48 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=23.251.144.62 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=56 ID=37248 DF PROTO=TCP SPT=58920 DPT=443 WINDOW=28400 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:48 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=35.180.114.138 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=27174 DF PROTO=TCP SPT=52228 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:48 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=47.52.67.29 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=55194 DF PROTO=TCP SPT=23539 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:50 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=23.251.144.62 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=56 ID=37249 DF PROTO=TCP SPT=58920 DPT=443 WINDOW=28400 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:45:52 ssdnodes-85807 kernel: eth0: renamed from veth2c2b4a1
+Oct 24 19:45:52 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vetha722c12: link becomes ready
+Oct 24 19:45:52 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered forwarding state
+Oct 24 19:45:52 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered forwarding state
+Oct 24 19:45:52 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): br-88f28d2029e3: link becomes ready
+Oct 24 19:45:54 ssdnodes-85807 kernel: eth0: renamed from vethd9c5130
+Oct 24 19:45:54 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth80d1b0a: link becomes ready
+Oct 24 19:45:54 ssdnodes-85807 kernel: br-88f28d2029e3: port 1(veth80d1b0a) entered forwarding state
+Oct 24 19:45:54 ssdnodes-85807 kernel: br-88f28d2029e3: port 1(veth80d1b0a) entered forwarding state
+Oct 24 19:45:55 ssdnodes-85807 kernel: eth0: renamed from veth9a1db37
+Oct 24 19:45:55 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethf2d1d6d: link becomes ready
+Oct 24 19:45:55 ssdnodes-85807 kernel: br-88f28d2029e3: port 2(vethf2d1d6d) entered forwarding state
+Oct 24 19:45:55 ssdnodes-85807 kernel: br-88f28d2029e3: port 2(vethf2d1d6d) entered forwarding state
+Oct 24 19:45:56 ssdnodes-85807 audit[4923]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.activate" pid=4923 comm="apparmor_parser"
+Oct 24 19:45:56 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435556.519:47): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.activate" pid=4923 comm="apparmor_parser"[0m
+Oct 24 19:45:57 ssdnodes-85807 audit[4988]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.benchmark" pid=4988 comm="apparmor_parser"
+Oct 24 19:45:57 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435557.915:48): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.benchmark" pid=4988 comm="apparmor_parser"[0m
+Oct 24 19:45:58 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:58.220256265-07:00" level=info msg="Loading containers: done."
+Oct 24 19:45:59 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:59.116826777-07:00" level=info msg="Docker daemon" commit=e68fc7a graphdriver(s)=aufs version=18.06.1-ce
+Oct 24 19:45:59 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:45:59.117602855-07:00" level=info msg="Daemon has completed initialization"
+Oct 24 19:45:59 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435559.224:49): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.buginfo" pid=5048 comm="apparmor_parser"[0m
+Oct 24 19:45:59 ssdnodes-85807 audit[5048]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.buginfo" pid=5048 comm="apparmor_parser"
+Oct 24 19:46:00 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:46:00.619865419-07:00" level=info msg="API listen on /var/run/docker.sock"
+Oct 24 19:46:00 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:46:00.619959162-07:00" level=info msg="API listen on [::]:2376"
+Oct 24 19:46:00 ssdnodes-85807 systemd[1]: Started Docker Application Container Engine.
+-- Subject: Unit docker.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit docker.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:00 ssdnodes-85807 audit[5089]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.check-kernel" pid=5089 comm="apparmor_parser"
+Oct 24 19:46:00 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435560.816:50): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.check-kernel" pid=5089 comm="apparmor_parser"[0m
+Oct 24 19:46:01 ssdnodes-85807 CRON[5094]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:46:01 ssdnodes-85807 CRON[5095]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:46:01 ssdnodes-85807 CRON[5094]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:46:01 ssdnodes-85807 CRON[5094]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:46:02 ssdnodes-85807 audit[5093]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.daemon" pid=5093 comm="apparmor_parser"
+Oct 24 19:46:02 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435562.621:51): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.daemon" pid=5093 comm="apparmor_parser"[0m
+Oct 24 19:46:04 ssdnodes-85807 audit[5114]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.configure" pid=5114 comm="apparmor_parser"
+Oct 24 19:46:04 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435564.417:52): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.configure" pid=5114 comm="apparmor_parser"[0m
+Oct 24 19:46:05 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435565.230:53): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.install" pid=5179 comm="apparmor_parser"[0m
+Oct 24 19:46:05 ssdnodes-85807 audit[5179]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.install" pid=5179 comm="apparmor_parser"
+Oct 24 19:46:05 ssdnodes-85807 systemd[1]: Started Daily apt download activities.
+-- Subject: Unit apt-daily.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:06 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435566.426:54): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.lxc" pid=5212 comm="apparmor_parser"[0m
+Oct 24 19:46:06 ssdnodes-85807 audit[5212]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.lxc" pid=5212 comm="apparmor_parser"
+Oct 24 19:46:06 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.41 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=44776 DPT=1197 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:07 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered forwarding state
+Oct 24 19:46:08 ssdnodes-85807 audit[5220]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.lxd" pid=5220 comm="apparmor_parser"
+Oct 24 19:46:08 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435568.014:55): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.lxd" pid=5220 comm="apparmor_parser"[0m
+Oct 24 19:46:09 ssdnodes-85807 audit[5222]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.migrate" pid=5222 comm="apparmor_parser"
+Oct 24 19:46:09 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435569.123:56): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.migrate" pid=5222 comm="apparmor_parser"[0m
+Oct 24 19:46:09 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435569.215:57): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.lxd" pid=5224 comm="apparmor_parser"[0m
+Oct 24 19:46:09 ssdnodes-85807 audit[5224]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.lxd" pid=5224 comm="apparmor_parser"
+Oct 24 19:46:09 ssdnodes-85807 kernel: br-88f28d2029e3: port 1(veth80d1b0a) entered forwarding state
+Oct 24 19:46:10 ssdnodes-85807 kernel: br-88f28d2029e3: port 2(vethf2d1d6d) entered forwarding state
+Oct 24 19:46:10 ssdnodes-85807 audit[5267]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/5662/usr/lib/snapd/snap-confine" pid=5267 comm="apparmor_parser"
+Oct 24 19:46:10 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435570.919:58): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/5662/usr/lib/snapd/snap-confine" pid=5267 comm="apparmor_parser"[0m
+Oct 24 19:46:11 ssdnodes-85807 audit[5267]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/5662/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=5267 comm="apparmor_parser"
+Oct 24 19:46:11 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435571.019:59): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/5662/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=5267 comm="apparmor_parser"[0m
+Oct 24 19:46:11 ssdnodes-85807 audit[5273]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.core" pid=5273 comm="apparmor_parser"
+Oct 24 19:46:11 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435571.023:60): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.core" pid=5273 comm="apparmor_parser"[0m
+Oct 24 19:46:11 ssdnodes-85807 audit[5275]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=5275 comm="apparmor_parser"
+Oct 24 19:46:11 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435571.127:61): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=5275 comm="apparmor_parser"[0m
+Oct 24 19:46:12 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:46:13 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:14 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:46:15 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:21 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:46:22 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:22 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:46:22 ssdnodes-85807 systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+-- Subject: Unit snap.lxd.daemon.unix.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.daemon.unix.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:23 ssdnodes-85807 systemd[1]: Starting Service for snap application lxd.activate...
+-- Subject: Unit snap.lxd.activate.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.activate.service has begun starting up.
+Oct 24 19:46:25 ssdnodes-85807 lxd.activate[5529]: => Starting LXD activation
+Oct 24 19:46:25 ssdnodes-85807 lxd.activate[5529]: ==> Loading snap configuration
+Oct 24 19:46:25 ssdnodes-85807 lxd.activate[5529]: ==> Checking for socket activation support
+Oct 24 19:46:25 ssdnodes-85807 lxd.activate[5529]: ==> Setting LXD socket ownership
+Oct 24 19:46:25 ssdnodes-85807 lxd.activate[5529]: ==> Checking if LXD needs to be activated
+Oct 24 19:46:27 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=203.24.188.100 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=39099 DPT=8545 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:36 ssdnodes-85807 systemd[1]: Started Service for snap application lxd.daemon.
+-- Subject: Unit snap.lxd.daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:39 ssdnodes-85807 lxd.daemon[5844]: => Preparing the system
+Oct 24 19:46:39 ssdnodes-85807 lxd.daemon[5844]: ==> Loading snap configuration
+Oct 24 19:46:39 ssdnodes-85807 lxd.daemon[5844]: ==> Setting up mntns symlink (mnt:[4026532199])
+Oct 24 19:46:39 ssdnodes-85807 lxd.daemon[5844]: ==> Setting up kmod wrapper
+Oct 24 19:46:39 ssdnodes-85807 lxd.daemon[5844]: ==> Preparing /boot
+Oct 24 19:46:40 ssdnodes-85807 lxd.daemon[5844]: ==> Preparing a clean copy of /run
+Oct 24 19:46:40 ssdnodes-85807 lxd.daemon[5844]: ==> Preparing a clean copy of /etc
+Oct 24 19:46:42 ssdnodes-85807 lxd.daemon[5844]: ==> Setting up ceph configuration
+Oct 24 19:46:42 ssdnodes-85807 lxd.daemon[5844]: ==> Setting up LVM configuration
+Oct 24 19:46:42 ssdnodes-85807 lxd.daemon[5844]: ==> Rotating logs
+Oct 24 19:46:43 ssdnodes-85807 lxd.daemon[5844]: ==> Setting up ZFS (0.6)
+Oct 24 19:46:43 ssdnodes-85807 lxd.daemon[5844]: ==> Escaping the systemd cgroups
+Oct 24 19:46:43 ssdnodes-85807 lxd.daemon[5844]: ==> Escaping the systemd process resource limits
+Oct 24 19:46:43 ssdnodes-85807 lxd.daemon[5844]: => Re-using existing LXCFS
+Oct 24 19:46:43 ssdnodes-85807 lxd.daemon[5844]: => Starting LXD
+Oct 24 19:46:44 ssdnodes-85807 lxd.daemon[5844]: lvl=warn msg="CGroup memory swap accounting is disabled, swap limits will be ignored." t=2018-10-24T19:46:44-0700
+Oct 24 19:46:48 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=54.38.33.118 DST=172.93.55.99 LEN=167 TOS=0x00 PREC=0x00 TTL=49 ID=4465 DF PROTO=UDP SPT=30303 DPT=30303 LEN=147 [0m
+Oct 24 19:46:53 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.244 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=55150 DPT=40261 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:53 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=185.8.49.212 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=52602 DPT=11211 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:53 ssdnodes-85807 dnsmasq-dhcp[3924]: router advertisement on fd42:9874:eaab:419::, old prefix for lxcbr0
+Oct 24 19:46:53 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=110.45.239.44 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=33033 DF PROTO=TCP SPT=55188 DPT=30303 WINDOW=28200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:54 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCPv6 stateless on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:46:54 ssdnodes-85807 dnsmasq-dhcp[3924]: DHCPv4-derived IPv6 names on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:46:54 ssdnodes-85807 dnsmasq-dhcp[3924]: router advertisement on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:46:54 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=110.45.239.44 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=33034 DF PROTO=TCP SPT=55188 DPT=30303 WINDOW=28200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:55 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=5.34.180.104 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=33095 DPT=8504 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:55 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.135 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=46711 DPT=18485 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:55 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.137 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=46040 DPT=18891 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:56 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=77.72.82.22 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=10377 PROTO=TCP SPT=46469 DPT=59311 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:56 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=18.191.61.110 DST=172.93.55.99 LEN=167 TOS=0x00 PREC=0x00 TTL=42 ID=17593 DF PROTO=UDP SPT=3007 DPT=30303 LEN=147 [0m
+Oct 24 19:46:56 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=110.45.239.44 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=33035 DF PROTO=TCP SPT=55188 DPT=30303 WINDOW=28200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: started, version 2.75 cachesize 150
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: DHCP, IP range 10.233.127.2 -- 10.233.127.254, lease time 1h
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: DHCPv6 stateless on lxcbr0
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: DHCPv4-derived IPv6 names on lxcbr0
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: router advertisement on lxcbr0
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: DHCPv6 stateless on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: DHCPv4-derived IPv6 names on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: router advertisement on fd42:9874:eaab:419::, constructed for lxcbr0
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: IPv6 router advertisement enabled
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: DHCP, sockets bound exclusively to interface lxcbr0
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: using local addresses only for domain lxd
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: reading /etc/resolv.conf
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: using local addresses only for domain lxd
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: using nameserver 8.8.4.4#53
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: using nameserver 8.8.8.8#53
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: read /etc/hosts - 5 addresses
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: read /var/snap/lxd/common/lxd/networks/lxcbr0/dnsmasq.hosts/webserver
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq[6320]: read /etc/hosts - 5 addresses
+Oct 24 19:46:57 ssdnodes-85807 dnsmasq-dhcp[6320]: read /var/snap/lxd/common/lxd/networks/lxcbr0/dnsmasq.hosts/webserver
+Oct 24 19:46:58 ssdnodes-85807 systemd[1]: Started Service for snap application lxd.activate.
+-- Subject: Unit snap.lxd.activate.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap.lxd.activate.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:46:59 ssdnodes-85807 lxd.daemon[5844]: => LXD is ready
+Oct 24 19:47:01 ssdnodes-85807 sshd[6284]: Accepted publickey for ming from 1.167.48.181 port 35473 ssh2: RSA SHA256:d5rcVyF0si1PcBQ9ORQ27+5xcr1U63/Nl4F0vVnLg9Y
+Oct 24 19:47:01 ssdnodes-85807 systemd[1]: Unmounted Mount unit for lxd, revision 9243.
+-- Subject: Unit snap-lxd-9243.mount has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snap-lxd-9243.mount has finished shutting down.
+Oct 24 19:47:01 ssdnodes-85807 sshd[6284]: pam_unix(sshd:session): session opened for user ming by (uid=0)
+Oct 24 19:47:01 ssdnodes-85807 systemd[1]: Created slice User Slice of ming.
+-- Subject: Unit user-1000.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:01 ssdnodes-85807 systemd[1]: Starting User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun starting up.
+Oct 24 19:47:01 ssdnodes-85807 CRON[6403]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:47:01 ssdnodes-85807 systemd-logind[1403]: New session 3 of user ming.
+-- Subject: A new session 3 has been created for user ming
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 3 has been created for the user ming.
+-- 
+-- The leading process of the session is 6284.
+Oct 24 19:47:01 ssdnodes-85807 systemd[6397]: pam_unix(systemd-user:session): session opened for user ming by (uid=0)
+Oct 24 19:47:01 ssdnodes-85807 systemd[1]: Started Session 3 of user ming.
+-- Subject: Unit session-3.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-3.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:01 ssdnodes-85807 CRON[6407]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:47:02 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:47:02 ssdnodes-85807 CRON[6403]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:47:02 ssdnodes-85807 CRON[6403]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:47:03 ssdnodes-85807 systemd[6397]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:03 ssdnodes-85807 systemd[6397]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:03 ssdnodes-85807 systemd[6397]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:03 ssdnodes-85807 systemd[6397]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:03 ssdnodes-85807 systemd[6397]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:03 ssdnodes-85807 systemd[6397]: Startup finished in 1.100s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 1100528 microseconds.
+Oct 24 19:47:03 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:47:03 ssdnodes-85807 systemd[1]: Started User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:03 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:03 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:47:04 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:47:07 ssdnodes-85807 audit[6609]: AVC apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6609 comm="snap-exec" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 24 19:47:07 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435627.451:62): apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6609 comm="snap-exec" requested_mask="r" denied_mask="r" fsuid=0 ouid=0[0m
+Oct 24 19:47:14 ssdnodes-85807 audit[6647]: AVC apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6647 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 24 19:47:14 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435634.760:63): apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6647 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0[0m
+Oct 24 19:47:15 ssdnodes-85807 audit[6941]: AVC apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6941 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 24 19:47:15 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435635.348:64): apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6941 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0[0m
+Oct 24 19:47:15 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.244 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=45116 DPT=59004 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:47:15 ssdnodes-85807 audit[6960]: AVC apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6960 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 24 19:47:15 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435635.456:65): apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=6960 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0[0m
+Oct 24 19:47:15 ssdnodes-85807 audit[7003]: AVC apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=7003 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 24 19:47:15 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435635.848:66): apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=7003 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0[0m
+Oct 24 19:47:16 ssdnodes-85807 audit[7029]: AVC apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=7029 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 24 19:47:16 ssdnodes-85807 kernel: [0;1;39maudit: type=1400 audit(1540435636.052:67): apparmor="DENIED" operation="open" profile="snap.lxd.hook.configure" name="/var/lib/snapd/hostfs/usr/lib/os-release" pid=7029 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=0 ouid=0[0m
+Oct 24 19:47:33 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.188 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=44098 DPT=50906 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:47:43 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:47:56 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.41 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=43961 DPT=2343 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:48:01 ssdnodes-85807 CRON[8005]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:48:01 ssdnodes-85807 CRON[8009]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:48:01 ssdnodes-85807 CRON[8005]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:48:01 ssdnodes-85807 CRON[8005]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:48:14 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=114.115.207.244 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=40 ID=56042 DF PROTO=TCP SPT=54222 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:48:20 ssdnodes-85807 qemu-ga[1942]: info: guest-exec called: "uname -srv"
+Oct 24 19:48:20 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8407
+Oct 24 19:48:21 ssdnodes-85807 qemu-ga[1942]: info: guest-exec called: "uptime -s"
+Oct 24 19:48:21 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8414
+Oct 24 19:48:21 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8414
+Oct 24 19:48:21 ssdnodes-85807 qemu-ga[1942]: info: guest-exec called: "ps -eo pid,user,pcpu,etimes,time,rss,comm,args"
+Oct 24 19:48:22 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8427
+Oct 24 19:48:22 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8427
+Oct 24 19:48:22 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8427
+Oct 24 19:48:22 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8427
+Oct 24 19:48:23 ssdnodes-85807 qemu-ga[1942]: info: guest-exec-status called, pid: 8427
+Oct 24 19:48:24 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:48:33 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=5.34.180.104 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=57501 DPT=8586 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:48:55 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.226 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=41087 DPT=59181 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:49:01 ssdnodes-85807 CRON[9397]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:49:01 ssdnodes-85807 CRON[9398]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:49:01 ssdnodes-85807 CRON[9397]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:49:01 ssdnodes-85807 CRON[9397]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:49:04 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:49:08 ssdnodes-85807 sudo[9420]: [0;1;39m    ming : TTY=pts/0 ; PWD=/home/ming ; USER=root ; COMMAND=/usr/sbin/service apache status[0m
+Oct 24 19:49:08 ssdnodes-85807 sudo[9420]: pam_unix(sudo:session): session opened for user root by ming(uid=0)
+Oct 24 19:49:08 ssdnodes-85807 sudo[9420]: pam_unix(sudo:session): session closed for user root
+Oct 24 19:49:13 ssdnodes-85807 sudo[9502]: [0;1;39m    ming : TTY=pts/0 ; PWD=/home/ming ; USER=root ; COMMAND=/usr/sbin/service apache2 status[0m
+Oct 24 19:49:13 ssdnodes-85807 sudo[9502]: pam_unix(sudo:session): session opened for user root by ming(uid=0)
+Oct 24 19:49:13 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.41 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=34766 DPT=26944 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:49:14 ssdnodes-85807 sudo[9502]: pam_unix(sudo:session): session closed for user root
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: [0;1;39mvboxdrv.service: Start operation timed out. Terminating.[0m
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: [0;1;31mFailed to start VirtualBox Linux kernel module.[0m
+-- Subject: Unit vboxdrv.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxdrv.service has failed.
+-- 
+-- The result is failed.
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: [0;1;39mvboxdrv.service: Unit entered failed state.[0m
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: [0;1;39mvboxdrv.service: Failed with result 'timeout'.[0m
+Oct 24 19:49:19 ssdnodes-85807 sudo[9748]: [0;1;39m    ming : TTY=pts/0 ; PWD=/home/ming ; USER=root ; COMMAND=/usr/sbin/service apache2 stop[0m
+Oct 24 19:49:19 ssdnodes-85807 sudo[9748]: pam_unix(sudo:session): session opened for user root by ming(uid=0)
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: Starting vboxweb-service.service...
+-- Subject: Unit vboxweb-service.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxweb-service.service has begun starting up.
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: Starting vboxautostart-service.service...
+-- Subject: Unit vboxautostart-service.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxautostart-service.service has begun starting up.
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: Starting vboxballoonctrl-service.service...
+-- Subject: Unit vboxballoonctrl-service.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxballoonctrl-service.service has begun starting up.
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: Started vboxweb-service.service.
+-- Subject: Unit vboxweb-service.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxweb-service.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: Started vboxautostart-service.service.
+-- Subject: Unit vboxautostart-service.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxautostart-service.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:49:19 ssdnodes-85807 systemd[1]: Started vboxballoonctrl-service.service.
+-- Subject: Unit vboxballoonctrl-service.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxballoonctrl-service.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:49:22 ssdnodes-85807 systemd[1]: Reached target Multi-User System.
+-- Subject: Unit multi-user.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:49:22 ssdnodes-85807 systemd[1]: Reached target Graphical Interface.
+-- Subject: Unit graphical.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit graphical.target has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:49:22 ssdnodes-85807 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Unit systemd-update-utmp-runlevel.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has begun starting up.
+Oct 24 19:49:22 ssdnodes-85807 systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Unit systemd-update-utmp-runlevel.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:49:22 ssdnodes-85807 systemd[1]: Startup finished in 9.104s (kernel) + 5min 22.224s (userspace) = 5min 31.328s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 9104120 microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 322224692 microseconds.
+Oct 24 19:49:23 ssdnodes-85807 systemd[1]: Stopping LSB: Apache2 web server...
+-- Subject: Unit apache2.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has begun shutting down.
+Oct 24 19:49:23 ssdnodes-85807 apache2[9896]:  * Stopping Apache httpd web server apache2
+Oct 24 19:49:25 ssdnodes-85807 apache2[9896]:  *
+Oct 24 19:49:25 ssdnodes-85807 systemd[1]: Stopped LSB: Apache2 web server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has finished shutting down.
+Oct 24 19:49:25 ssdnodes-85807 sudo[9748]: pam_unix(sudo:session): session closed for user root
+Oct 24 19:49:33 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=52.187.151.89 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=45568 DF PROTO=TCP SPT=59010 DPT=30303 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:49:45 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:49:54 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.244 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=40743 DPT=31441 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:50:02 ssdnodes-85807 CRON[9952]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:50:02 ssdnodes-85807 CRON[9953]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:50:02 ssdnodes-85807 CRON[9952]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:50:02 ssdnodes-85807 CRON[9952]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:50:08 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:68:2c:18:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe68:2c18 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=83 TC=0 HOPLIMIT=1 FLOWLBL=297525 PROTO=UDP SPT=27036 DPT=27036 LEN=43 [0m
+Oct 24 19:50:13 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:13-07:00" level=info msg="shim reaped" id=feb12a187097b398bcbe0788ae3703905f37893c4b4539576fe06f0b7441db5e
+Oct 24 19:50:13 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:13.095198690-07:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct 24 19:50:13 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered disabled state
+Oct 24 19:50:13 ssdnodes-85807 kernel: veth2c2b4a1: renamed from eth0
+Oct 24 19:50:13 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=13.250.117.32 DST=172.93.55.99 LEN=157 TOS=0x00 PREC=0x00 TTL=45 ID=23905 DF PROTO=UDP SPT=30303 DPT=30303 LEN=137 [0m
+Oct 24 19:50:13 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered disabled state
+Oct 24 19:50:13 ssdnodes-85807 kernel: device vetha722c12 left promiscuous mode
+Oct 24 19:50:13 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vetha722c12) entered disabled state
+Oct 24 19:50:14 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:14.096557146-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/aufs/mnt/893567a80d5ba25500aee5637d767226366010ad90b19305c0a1f4d29a662896" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:50:25 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=83 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=43 [0m
+Oct 24 19:50:28 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3281]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:50:28 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:28.212440781-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/aufs/mnt/aee06aa0f375ea0549fad1114f317a1602549ddc5470ecbcf2a541563f89eba7-init" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:50:28 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3276]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:50:28 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:28.513865954-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/aufs/mnt/9ac6840b1905dec7148f5bee31d8a234e73a32c05b6e236283dc7c2a08b08111-init" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:50:28 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:28.813830388-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/aufs/mnt/aee06aa0f375ea0549fad1114f317a1602549ddc5470ecbcf2a541563f89eba7" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:50:28 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3281]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:50:29 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3276]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:50:29 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:29.016088286-07:00" level=warning msg="Couldn't run auplink before unmount /var/lib/docker/aufs/mnt/9ac6840b1905dec7148f5bee31d8a234e73a32c05b6e236283dc7c2a08b08111" error="exec: \"auplink\": executable file not found in $PATH" storage-driver=aufs
+Oct 24 19:50:31 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[3264]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:50:31 ssdnodes-85807 kernel: device vethb32f63c entered promiscuous mode
+Oct 24 19:50:31 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): vethb32f63c: link is not ready
+Oct 24 19:50:31 ssdnodes-85807 systemd-udevd[10060]: [0;1;39mCould not generate persistent MAC address for vethb32f63c: No such file or directory[0m
+Oct 24 19:50:31 ssdnodes-85807 systemd-udevd[10058]: [0;1;39mCould not generate persistent MAC address for vethed6c22d: No such file or directory[0m
+Oct 24 19:50:31 ssdnodes-85807 kernel: [0;1;39maufs au_opts_verify:1597:dockerd[2400]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+Oct 24 19:50:32 ssdnodes-85807 systemd-udevd[10077]: [0;1;39mCould not generate persistent MAC address for vethfdeb014: No such file or directory[0m
+Oct 24 19:50:32 ssdnodes-85807 systemd-udevd[10078]: [0;1;39mCould not generate persistent MAC address for veth57c59aa: No such file or directory[0m
+Oct 24 19:50:32 ssdnodes-85807 kernel: device veth57c59aa entered promiscuous mode
+Oct 24 19:50:32 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_UP): veth57c59aa: link is not ready
+Oct 24 19:50:32 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth57c59aa) entered forwarding state
+Oct 24 19:50:32 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth57c59aa) entered forwarding state
+Oct 24 19:50:32 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth57c59aa) entered disabled state
+Oct 24 19:50:33 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:33-07:00" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/5b4fca1126adc29e197d347227d01efcbbca3c8c4cafeeb33bdfcbb825758059/shim.sock" debug=false pid=10202
+Oct 24 19:50:34 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=13.114.133.127 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=228 ID=55022 DF PROTO=TCP SPT=15996 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:50:34 ssdnodes-85807 dockerd[1664]: time="2018-10-24T19:50:34-07:00" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/8bd929740803982fa51a139bbb8460a39c2b34395eb9050596dd31c2101610ed/shim.sock" debug=false pid=10241
+Oct 24 19:50:35 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=13.114.133.127 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=228 ID=55023 DF PROTO=TCP SPT=15996 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:50:35 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.242 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=32917 DPT=989 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:50:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=51.158.79.187 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=239 ID=15998 PROTO=UDP SPT=9993 DPT=26153 LEN=36 [0m
+Oct 24 19:50:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=51.158.79.187 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=243 ID=15996 PROTO=UDP SPT=20034 DPT=9993 LEN=36 [0m
+Oct 24 19:50:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=51.158.79.187 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=243 ID=15995 PROTO=UDP SPT=9993 DPT=9993 LEN=36 [0m
+Oct 24 19:50:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=51.158.79.187 DST=172.93.55.99 LEN=56 TOS=0x00 PREC=0x00 TTL=239 ID=15999 PROTO=UDP SPT=20034 DPT=26153 LEN=36 [0m
+Oct 24 19:50:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.103.135 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=35048 DPT=42066 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:50:37 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=13.114.133.127 DST=172.93.55.99 LEN=60 TOS=0x00 PREC=0x00 TTL=228 ID=55024 DF PROTO=TCP SPT=15996 DPT=30303 WINDOW=26883 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:50:37 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.188 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=41606 DPT=12676 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:50:37 ssdnodes-85807 kernel: eth0: renamed from vethed6c22d
+Oct 24 19:50:37 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethb32f63c: link becomes ready
+Oct 24 19:50:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vethb32f63c) entered forwarding state
+Oct 24 19:50:37 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vethb32f63c) entered forwarding state
+Oct 24 19:50:38 ssdnodes-85807 kernel: eth0: renamed from vethfdeb014
+Oct 24 19:50:38 ssdnodes-85807 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth57c59aa: link becomes ready
+Oct 24 19:50:38 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth57c59aa) entered forwarding state
+Oct 24 19:50:38 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth57c59aa) entered forwarding state
+Oct 24 19:50:45 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:68:2c:18:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe68:2c18 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=82 TC=0 HOPLIMIT=1 FLOWLBL=297525 PROTO=UDP SPT=27036 DPT=27036 LEN=42 [0m
+Oct 24 19:50:52 ssdnodes-85807 kernel: br-88f28d2029e3: port 3(vethb32f63c) entered forwarding state
+Oct 24 19:50:53 ssdnodes-85807 kernel: br-88f28d2029e3: port 4(veth57c59aa) entered forwarding state
+Oct 24 19:50:54 ssdnodes-85807 sudo[10414]: [0;1;39m    ming : TTY=pts/0 ; PWD=/home/ming/src/web.maintenance ; USER=root ; COMMAND=/usr/bin/apt-get remove apache2[0m
+Oct 24 19:50:54 ssdnodes-85807 sudo[10414]: pam_unix(sudo:session): session opened for user root by ming(uid=0)
+Oct 24 19:50:54 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.101.41 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=51094 DPT=13569 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:51:01 ssdnodes-85807 CRON[10420]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:51:01 ssdnodes-85807 CRON[10423]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:51:01 ssdnodes-85807 CRON[10420]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:51:01 ssdnodes-85807 CRON[10420]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:51:06 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=83 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=43 [0m
+Oct 24 19:51:09 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:68:2c:18:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe68:2c18 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=82 TC=0 HOPLIMIT=1 FLOWLBL=297525 PROTO=UDP SPT=27036 DPT=27036 LEN=42 [0m
+Oct 24 19:51:09 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:51:10 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:51:10 ssdnodes-85807 systemd[1]: Stopped LSB: Cache cleaner process for Apache2 web server.
+-- Subject: Unit apache-htcacheclean.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache-htcacheclean.service has finished shutting down.
+Oct 24 19:51:10 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:51:10 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:51:10 ssdnodes-85807 systemd[1]: Stopped LSB: Apache2 web server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has finished shutting down.
+Oct 24 19:51:11 ssdnodes-85807 systemd[1]: Reloading.
+Oct 24 19:51:11 ssdnodes-85807 systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Oct 24 19:51:14 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=194.63.143.137 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=42212 DPT=58015 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:51:18 ssdnodes-85807 sudo[10414]: pam_unix(sudo:session): session closed for user root
+Oct 24 19:51:36 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=5.34.180.104 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=32775 DPT=1234 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:51:40 ssdnodes-85807 sudo[10998]: [0;1;39m    ming : TTY=pts/0 ; PWD=/home/ming/src/web.maintenance ; USER=root ; COMMAND=/usr/sbin/service apache2 status[0m
+Oct 24 19:51:40 ssdnodes-85807 sudo[10998]: pam_unix(sudo:session): session opened for user root by ming(uid=0)
+Oct 24 19:51:42 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:68:2c:18:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe68:2c18 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=83 TC=0 HOPLIMIT=1 FLOWLBL=297525 PROTO=UDP SPT=27036 DPT=27036 LEN=43 [0m
+Oct 24 19:51:44 ssdnodes-85807 sudo[10998]: pam_unix(sudo:session): session closed for user root
+Oct 24 19:51:46 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=33:33:00:00:00:01:00:1c:42:79:73:03:86:dd SRC=fe80:0000:0000:0000:021c:42ff:fe79:7303 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=84 TC=0 HOPLIMIT=1 FLOWLBL=909835 PROTO=UDP SPT=27036 DPT=27036 LEN=44 [0m
+Oct 24 19:51:54 ssdnodes-85807 kernel: [0;1;39m[UFW BLOCK] IN=ens3 OUT= MAC=00:1c:42:43:15:93:f4:b5:2f:59:a4:41:08:00 SRC=192.162.100.20 DST=172.93.55.99 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=39127 DPT=51315 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Oct 24 19:51:55 ssdnodes-85807 sudo[11007]: [0;1;39m    ming : TTY=pts/0 ; PWD=/home/ming/src/web.maintenance ; USER=root ; COMMAND=/usr/sbin/service apache2 start[0m
+Oct 24 19:51:55 ssdnodes-85807 sudo[11007]: pam_unix(sudo:session): session opened for user root by ming(uid=0)
+Oct 24 19:51:56 ssdnodes-85807 systemd[1]: Starting LSB: Apache2 web server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has begun starting up.
+Oct 24 19:51:56 ssdnodes-85807 apache2[11041]:  * Starting Apache httpd web server apache2
+Oct 24 19:51:56 ssdnodes-85807 apache2[11041]:  *
+Oct 24 19:51:56 ssdnodes-85807 apache2[11041]:  * The apache2 configtest failed.
+Oct 24 19:51:56 ssdnodes-85807 apache2[11041]: Output of config test was:
+Oct 24 19:51:56 ssdnodes-85807 apache2[11041]: env: ‘apache2ctl’: No such file or directory
+Oct 24 19:51:56 ssdnodes-85807 systemd[1]: [0;1;39mapache2.service: Control process exited, code=exited status=1[0m
+Oct 24 19:51:56 ssdnodes-85807 systemd[1]: [0;1;31mFailed to start LSB: Apache2 web server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is failed.
+Oct 24 19:51:56 ssdnodes-85807 systemd[1]: [0;1;39mapache2.service: Unit entered failed state.[0m
+Oct 24 19:51:56 ssdnodes-85807 systemd[1]: [0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Oct 24 19:51:56 ssdnodes-85807 sudo[11007]: pam_unix(sudo:session): session closed for user root
+Oct 24 19:52:01 ssdnodes-85807 CRON[11054]: pam_unix(cron:session): session opened for user nobody by (uid=0)
+Oct 24 19:52:01 ssdnodes-85807 CRON[11055]: (nobody) CMD ([ -x /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh ] && /opt/perforce/swarm/p4-bin/scripts/swarm-cron.sh)
+Oct 24 19:52:02 ssdnodes-85807 CRON[11054]: (CRON) info (No MTA installed, discarding output)
+Oct 24 19:52:02 ssdnodes-85807 CRON[11054]: pam_unix(cron:session): session closed for user nobody
+Oct 24 19:52:04 ssdnodes-85807 sudo[11062]: [0;1;39m    ming : TTY=pts/0 ; PWD=/home/ming/src/web.maintenance ; USER=root ; COMMAND=/bin/journalctl -xe[0m
+Oct 24 19:52:04 ssdnodes-85807 sudo[11062]: pam_unix(sudo:session): session opened for user root by ming(uid=0)

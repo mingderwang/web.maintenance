@@ -1,0 +1,19 @@
+#bg {
+    position:relative;
+    background:url(../img/golftrib.jpg) center center;
+    background-size:cover;
+    background-attachment:scroll;
+    cursor:default;
+    height: 100vh;
+    display: block;
+}
+.title {
+    padding-top:25vh;
+    padding-bottom:1vh;
+}
+.text {
+    opacity:center;
+    padding-top:6vh;
+    padding-bottom:6vh;
+    font-size:large;  
+}
